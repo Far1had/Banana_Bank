@@ -20,17 +20,20 @@ const BankComponent = () => {
   };
 
   return (
-    <div className="konto">
-      <h3>Mein Girokonto</h3>
-      <div className="saldo">{saldo.toFixed(2)} €</div>
-      <input
-        type="number"
-        className="geldbetrag"
-        value={betrag}
-        onChange={(e) => setBetrag(e.target.value)}
-        placeholder="Betrag"
-      />
+    <main>
+        <h1 id="title">Banana Bank</h1>
+          <div className="konto">
+      
       <div>
+        <h3>Mein Girokonto</h3>
+        <div className="saldo">{saldo.toFixed(2)} €</div>
+        <input
+          type="number"
+          className="geldbetrag"
+          value={betrag}
+          onChange={(e) => setBetrag(e.target.value)}
+          placeholder="Betrag"
+        />
         <button className="einzahlen" onClick={handleEinzahlen}>
           Einzahlen
         </button>
@@ -38,8 +41,9 @@ const BankComponent = () => {
           Auszahlen
         </button>
       </div>
-
     </div>
+    </main>
+
   );
 };
 

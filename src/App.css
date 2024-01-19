@@ -10,6 +10,10 @@ body {
 
 }
 
+main {
+  margin: 16px auto;
+}
+
 .header {
     margin: 50px 0px;
 }
@@ -20,23 +24,30 @@ body {
 }
 
 #title {
-    color: #fbec5d;
+    color: #efd80c;
     background-color: #fffbc9;
-    border-radius: 5px;
+    border-radius: 15px;
     font-family: "Oleo Script", cursive;
     font-size: 50px;
     margin: 0;
+    margin-bottom: 25px;
+    border: 16px inset rgb(94, 255, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .konto {
     color: #6b3e26;
     background-color: #fffbc9;
-    border: 1px solid #fbec5d;
+    border: 26px inset rgb(94, 255, 0);
     border-radius: 15px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
     width: 300px;
+    font-size: 1.3rem;
 }
 
 .saldo {
