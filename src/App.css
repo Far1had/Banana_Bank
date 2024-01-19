@@ -31,7 +31,7 @@ main {
     font-size: 50px;
     margin: 0;
     margin-bottom: 25px;
-    border: 16px inset rgb(94, 255, 0);
+    border: 16px inset rgb(242, 255, 0);
     height: 70px;
     display: flex;
     align-items: center;
@@ -41,7 +41,7 @@ main {
 .konto {
     color: #6b3e26;
     background-color: #fffbc9;
-    border: 26px inset rgb(94, 255, 0);
+    border: 26px inset rgb(9242, 255, 0);
     border-radius: 15px;
     display: inline-block;
     margin: 10px;
