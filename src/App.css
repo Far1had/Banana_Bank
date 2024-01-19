@@ -1,42 +1,65 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url(http://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(http://fonts.googleapis.com/css?family=Ruluko);
+
+body {
+    font-family: "Ruluko", sans-serif;
+    margin: 0px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header {
+    margin: 50px 0px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#logoImg {
+    width: 100px;
+    height: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+#title {
+    color: #fbec5d;
+    background-color: #fffbc9;
+    border-radius: 5px;
+    font-family: "Oleo Script", cursive;
+    font-size: 50px;
+    margin: 0;
 }
 
-.card {
-  padding: 2em;
+.konto {
+    color: #6b3e26;
+    background-color: #fffbc9;
+    border: 1px solid #fbec5d;
+    border-radius: 15px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
 }
 
-.read-the-docs {
-  color: #888;
+.saldo {
+    background-color: #fbec5d;
+    color: #ffffff;
+    border: 1px solid #fbec5d;
+    border-radius: 15px;
+    font-family: "Ruluko", sans-serif;
+    font-size: 50px;
+    margin: 5px;
+    padding: 25px 0px;
+}
+.geldbetrag {
+    margin: 0 0.25rem;
+    min-width: 125px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    transition: border-color 0.5s ease-out;
+}
+.auszahlen,
+.einzahlen {
+    margin: 5px;
+    background-color: #fbec5d;
+    color: #6b3e26;
+    border-radius: 5px;
 }
